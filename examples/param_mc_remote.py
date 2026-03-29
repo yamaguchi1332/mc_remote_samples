@@ -6,8 +6,8 @@ import mc_remote.entity_id as entity
 import mc_remote.particle_id as particle
 
 
-PLAYER_NAME = sotakota1228  # set your player name in Minecraft
-PLAYER_ORIGIN = Vec3(2000, 0, 2000)  # PO.x, PO.y, PO.z
+PLAYER_NAME = "sotakota1228"  # set your player name in Minecraft
+PLAYER_ORIGIN = Vec3(3000, 0, 3000)  # PO.x, PO.y, PO.z
 print(f"param_mc_remote loaded for {PLAYER_NAME} at {PLAYER_ORIGIN.x}, {PLAYER_ORIGIN.y}, {PLAYER_ORIGIN.z}")
 
 # minecraft remote connection to the host at address:port
